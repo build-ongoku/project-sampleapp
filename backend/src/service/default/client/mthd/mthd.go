@@ -11,3 +11,12 @@ func HookReadPre(ctx context.Context, c app_client.Client, req svcdefault_entcli
 
 	return req, nil
 }
+
+func HookInit(ctx context.Context, c app_client.Client) error {
+
+	// Add an entity
+
+	// Fetch an entity
+
+	return nil
+}
